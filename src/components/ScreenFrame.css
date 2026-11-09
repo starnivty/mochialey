@@ -1,0 +1,42 @@
+.screen-frame {
+  position: relative;
+
+  width: 394px;
+  height: 852px;
+
+  padding: 10px;
+
+  background: linear-gradient(
+    135deg,
+    #777,
+    #171717,
+    #555,
+    #111
+  );
+
+  border-radius: 58px;
+
+  box-shadow:
+    0 0 0 2px #888,
+    0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.screen {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  border-radius: 49px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #ed76e9 0%,
+      #7915b9 25%,
+      #080018 55%,
+      #000 100%
+    );
+}

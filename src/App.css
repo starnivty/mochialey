@@ -1,0 +1,146 @@
+.home-screen {
+  position: absolute;
+  inset: 0;
+
+  padding: 110px 22px 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.widget-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.widget {
+  height: 150px;
+  padding: 15px;
+
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  overflow: hidden;
+}
+
+.weather-widget {
+  background: linear-gradient(
+    160deg,
+    #14172b,
+    #313d62
+  );
+}
+
+.calendar-widget {
+  background: #202020;
+}
+
+.widget strong {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.widget p {
+  font-size: 13px;
+  margin-top: auto;
+}
+
+.widget small {
+  font-size: 11px;
+}
+
+.calendar-widget span {
+  color: #ff547c;
+  font-size: 12px;
+}
+
+.calendar-widget p {
+  background: #492032;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px 10px;
+
+  margin-top: 30px;
+}
+
+.app-item {
+  border: none;
+  background: transparent;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+
+  color: white;
+  cursor: pointer;
+}
+
+.app-icon {
+  width: 64px;
+  height: 64px;
+
+  border-radius: 17px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 2px 5px #0003;
+}
+
+.app-item span {
+  font-size: 11px;
+}
+
+.search-bar {
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 25px;
+
+  padding: 8px 16px;
+
+  border-radius: 20px;
+  background: #ffffff22;
+
+  color: white;
+  font-size: 13px;
+}
+
+.dock {
+  min-height: 82px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 30px;
+
+  background: #ffffff35;
+  backdrop-filter: blur(20px);
+}
+
+.dock button {
+  width: 55px;
+  height: 55px;
+
+  border: none;
+  border-radius: 15px;
+
+  background: #ffffff25;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}

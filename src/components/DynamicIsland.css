@@ -1,0 +1,32 @@
+.dynamic-island {
+  position: absolute;
+
+  top: 12px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 120px;
+  height: 36px;
+
+  background: #000;
+
+  border-radius: 30px;
+
+  z-index: 100;
+}
+
+.island-camera {
+  position: absolute;
+
+  right: 12px;
+  top: 12px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #17243d;
+  box-shadow: inset 0 0 3px #536caa;
+}
